@@ -1,0 +1,24 @@
+*{font-family:arial}
+body{background:#ddd;}
+.main{background:#fff;min-height:100%;padding:5px;} 
+.topbar{background:#371643;color:#fff;}
+.topbar a {color:#ddd;}
+.topbar a:hover {color:#fbb;}
+table{font-size:0.8em;}
+thead {background:#ccc;}
+.table-sm td{padding:0.1rem;}
+.real, .int, .percent , .arch , .pay {text-align:right;}
+thead td{text-transform:capitalize;}
+td.date{white-space:nowrap;}
+
+tr:hover{background:#faf;}
+.logs{background:#fee;padding:2em;font-size:0.8em;}
+.month-picker, .year-picker{text-align:center;}
+#navform{position:relative;top:25px;left:10px;}
+form i{margin:0 5px;}
+form .form-control {height:30px;padding:3px;}
+
+.percent::after{
+	content:'%';
+}
+li.calresult:hover{background:#fff;}

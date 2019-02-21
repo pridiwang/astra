@@ -1,0 +1,11 @@
+<?php
+$dbserver='localhost';
+$dbname='admin_astra';
+$dbuser='admin_astra';
+$dbpwd='2zLplT0Sk';
+$realflds=array('sales_value','sales_target','incentive','percent_arch','percent_incentive','manual','sales','target','incentive','total','budget');
+$intflds=array('ratio');
+$incentive_type=array('M','Q','H','Y');
+$controlflds=array('id','logs');
+$percentflds=array('arch','pay_out','percent_incentive','percent_arch'); 
+?>
